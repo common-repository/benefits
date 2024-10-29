@@ -1,0 +1,76 @@
+/***********************************************************************************/
+/******************************** BENEFITS SLIDER **********************************/
+/***********************************************************************************/
+.benefits-benefits-slider {
+    height: 152px; /* Used to avoid slow JS page moving while slider will load */
+    margin-top: 19px;
+    margin-bottom: 19px;
+}
+.benefits-benefits-slider .responsive-benefits-slider div.slick-slide {
+    text-align: center;
+}
+.benefits-benefits-slider .responsive-benefits-slider div.benefit-image {
+    height: 81px;
+    margin-left: 64px;
+    margin-right: 10px;
+}
+.benefits-benefits-slider .responsive-benefits-slider div.benefit-image img {
+    border-radius: 12px 12px 12px 12px;
+    width: 71px;
+    height: 81px;
+}
+.benefits-benefits-slider .responsive-benefits-slider div.benefit-title {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 25px;
+    margin-bottom: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 23px;
+    overflow: hidden;
+}
+.benefits-benefits-slider .responsive-benefits-slider div.benefit-description {
+    font-size: 16px;
+    margin-top: 25px;
+    margin-bottom: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 46px;
+    overflow: hidden;
+}
+.benefits-benefits-slider .responsive-benefits-slider button.benefits-slider-prev,
+.benefits-benefits-slider .responsive-benefits-slider button.benefits-slider-next {
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: 50%;
+    display: block;
+    color: transparent;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+.benefits-benefits-slider .responsive-benefits-slider button.benefits-slider-prev {
+    background-image: url("../../../Images/SliderArrowLeft.png");
+    background-repeat: no-repeat;
+    background-color: transparent;
+    left: -25px;
+    width: 14px;
+    height: 24px;
+}
+.benefits-benefits-slider .responsive-benefits-slider button.benefits-slider-next {
+    background-image: url("../../../Images/SliderArrowRight.png");
+    background-repeat: no-repeat;
+    background-color: transparent;
+    right: -25px;
+    width: 14px;
+    height: 24px;
+}
+/* Hide the arrow if there is no items on the left/right */
+.benefits-benefits-slider .responsive-benefits-slider button.benefits-slider-prev.slick-disabled,
+.benefits-benefits-slider .responsive-benefits-slider button.benefits-slider-next.slick-disabled {
+    visibility: hidden;
+}
+.benefits-benefits-slider .no-benefits-available {
+    text-align: center;
+}

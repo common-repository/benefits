@@ -1,0 +1,8 @@
+/**
+ * Additional plugin styles for compatibility with Avada
+ * Theme Name: Avada
+ * License: Licensed under the AGPL license.
+ */
+.single-navigation {
+    display: none;
+}
